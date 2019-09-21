@@ -51,7 +51,7 @@ def submit():
         if db.session.query(Feedback).filter(Feedback.customer == customer).count()== 0:
             data = Feedback(customer,dealer,rating,comments)
             db.session.add(data)
-            # send_mail(customer,dealer,rating,comments)
+            send_mail(customer,dealer,rating,comments)
             db.session.commit()
             return render_template('success.html')
         return render_template('index.html', message='Sorry, you can only leave a comment once '+ ""+ customer)
