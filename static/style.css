@@ -4,11 +4,15 @@
 	padding: 0;
 }
 
-body {
-	background: #f4f4f4;
+body { 
+	background: #790000;
 	font-family: Arial, Helvetica, sans-serif;
-	color: #333;
+	color: rgb(0, 0, 0);
 	line-height: 1.6;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+
 }
 
 .container {
@@ -34,8 +38,9 @@ img {
 .message {
 	text-align: center;
 	padding: 5px;
-	border: #ccc dotted 2px;
+	border:  2px;
 	margin-top: 2rem;
+	color: #6b6d6c;
 }
 
 .logo {
@@ -55,14 +60,14 @@ textarea {
 	width: 100%;
 	padding: 0.4rem;
 	font-size: 1.2rem;
-	border: 1px solid #ccc;
+	border: 1px solid rgb(173, 168, 168);
 }
 
 .btn {
 	display: block;
 	width: 100%;
-	background: #333;
-	color: #fff;
+	background: rgb(0, 0, 0);
+	color:#a86a6a;
 	padding: 10px 20px;
 	border: none;
 	cursor: pointer;
